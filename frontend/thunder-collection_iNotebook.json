@@ -1,0 +1,41 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "iNotebook",
+    "collectionId": "c674ad07-3323-4575-a81c-575bc37bf9c0",
+    "dateExported": "2025-05-27T15:22:18.625Z",
+    "version": "1.2",
+    "folders": [
+        {
+            "_id": "9e3b75c5-0b2a-4ae4-b4fb-78cdccd9d8da",
+            "name": "Authentication",
+            "containerId": "",
+            "created": "2025-05-27T14:39:33.408Z",
+            "sortNum": 10000
+        }
+    ],
+    "requests": [
+        {
+            "_id": "1d42f7e2-5a15-4a78-bc43-42e77a94f197",
+            "colId": "c674ad07-3323-4575-a81c-575bc37bf9c0",
+            "containerId": "9e3b75c5-0b2a-4ae4-b4fb-78cdccd9d8da",
+            "name": "Create a new User",
+            "url": "http://localhost:4000/api/auth/createuser",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2025-05-27T14:40:17.537Z",
+            "modified": "2025-05-27T15:20:56.911Z",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\" : \"Rosey\",\n  \"email\": \"rosey865@gmail.com\",\n  \"password\": \"Roseyisalive\"\n  \n}",
+                "form": []
+            }
+        }
+    ],
+    "ref": "vP8_FZJJ-z1CQxDnGQI26LvUdNwtbX_5FLeanMLeJH-j95lRlZCkLwASKgAltoNN5fMLCb8QSnmnax3ptJmn8A"
+}

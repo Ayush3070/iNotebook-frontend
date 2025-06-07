@@ -1,0 +1,23 @@
+.addnote-bg {
+    backdrop-filter: blur(8px);
+  }
+  
+  .glass-card {
+    background: rgba(0, 0, 0, 0.35); /* ✅ Blackish tint */
+    border-radius: 16px;
+    backdrop-filter: blur(12px);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3); /* ✅ Deeper shadow */
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    color: white;
+    padding: 20px;
+  }
+  .glass-card .form-control {
+    background-color: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: white;
+  }
+  
+  .glass-card .form-control::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+  }
+    
