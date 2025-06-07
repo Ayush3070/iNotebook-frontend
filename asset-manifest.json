@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Ayush3070/iNotebook-frontend/static/css/main.b69960b2.css",
+    "main.js": "/Ayush3070/iNotebook-frontend/static/js/main.6c457068.js",
+    "index.html": "/Ayush3070/iNotebook-frontend/index.html",
+    "main.b69960b2.css.map": "/Ayush3070/iNotebook-frontend/static/css/main.b69960b2.css.map",
+    "main.6c457068.js.map": "/Ayush3070/iNotebook-frontend/static/js/main.6c457068.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b69960b2.css",
+    "static/js/main.6c457068.js"
+  ]
+}
